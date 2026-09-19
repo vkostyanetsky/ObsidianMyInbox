@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"target": "ES2018",
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"lib": ["DOM", "ES5", "ES6", "ES7"],
+		"strict": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"isolatedModules": true,
+		"importHelpers": true,
+		"inlineSourceMap": true,
+		"inlineSources": true,
+		"allowJs": true,
+		"noEmit": true,
+		"skipLibCheck": true
+	},
+	"include": ["src/**/*.ts"]
+}

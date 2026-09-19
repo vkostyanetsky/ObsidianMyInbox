@@ -1,0 +1,10 @@
+{
+	"id": "my-inbox",
+	"name": "My Inbox",
+	"version": "1.0.0",
+	"minAppVersion": "1.9.0",
+	"description": "Adds a ribbon icon that opens a chosen base listing your incoming notes.",
+	"author": "Vlad Kostyanetsky",
+	"authorUrl": "https://github.com/vkostyanetsky",
+	"isDesktopOnly": false
+}

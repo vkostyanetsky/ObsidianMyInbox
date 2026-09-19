@@ -1,0 +1,21 @@
+.my-inbox-ribbon-icon {
+	position: relative;
+}
+
+.my-inbox-ribbon-icon[data-my-inbox-count]::after {
+	content: attr(data-my-inbox-count);
+	position: absolute;
+	top: 0;
+	inset-inline-end: 0;
+	box-sizing: border-box;
+	min-width: var(--size-4-3);
+	padding: 0 var(--size-2-1);
+	border-radius: var(--radius-l);
+	background-color: var(--interactive-accent);
+	color: var(--text-on-accent);
+	font-size: calc(var(--font-ui-smallest, 12px) * 0.75);
+	font-weight: var(--font-semibold);
+	line-height: var(--size-4-3);
+	text-align: center;
+	pointer-events: none;
+}
